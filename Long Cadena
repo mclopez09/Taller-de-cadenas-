@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+int longCadena(char *cad){
+
+	int n;
+	for ( n=0 ; cad[n] != '\0'; n++ );
+	printf("La Longitud es: %i\n", n);
+	return n;
+}
