@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+void copiarCadenas(char *cadOrigen, char *cadDestino){ 
+	int n; 
+	for( n=0 ; cadOrigen[n] != '\0' ; n++ ){
+		cadDestino[n] = cadOrigen[n];
+	}
+	printf("Origen %s\n", cadOrigen);
+	printf("Destino %s\n", cadDestino);
+}
