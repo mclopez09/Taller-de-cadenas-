@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int posFinCaracter(char *cad, char car){
+	int n,p;
+	for (n=longCadena(cad);n<=longCadena(cad);n--){
+		if (cad[n]==car){
+			p=n;
+			printf ("EstÃ¡ en la posiciÃ³n: %d",p);
+			break;
+
+		}
+	}
+	return -1;
+}
