@@ -7,3 +7,10 @@ int longCadena(char *cad){
 	printf("La Longitud es: %i\n", n);
 	return n;
 }
+void main(){
+	int n;
+	char *cad = "Laboratorio de programacion.";
+	longCadena(cad);
+}
+
+
