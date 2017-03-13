@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+char asignarCadena(char *cad, char car){
+	int i;
+	char *temporal = (char *) malloc(longCadena(cad));
+	printf("%s\n", cad);
+	for ( i = 0 ; cad[i] != '\0' ; i++ ){
+		temporal[i] = car;
+	}
+	cad = (char *) malloc(longCadena(cad));
+	for ( i = 0 ; temporal[i] != '\0' ; i++ ){
+		cad[i] = temporal[i];
+	}
+	printf("%s\n", cad);
+}
