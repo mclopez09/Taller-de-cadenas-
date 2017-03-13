@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+char copiarSub(char *subCADORIGEN, char *subCADDESTINO, int n, int m){
+	int i;
+	for ( i = 0 ; subCADORIGEN[i+m] != '\0' ; i++ ){
+		subCADDESTINO[i] = subCADORIGEN[i+m];
+	}
+	printf("Sub-cadenaN-M: %s\n", subCADDESTINO);
+}
