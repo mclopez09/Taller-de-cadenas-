@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+char *copiarN(char *CADORIGEN, char *CADDESTINO, int n){ 
+	int i;
+	for( i=0 ; i < n ; i++ ){
+		CADDESTINO[i] = CADORIGEN[i];
+	}
+	printf(" %s\n", CADORIGEN);
+	printf("%s\n", CADDESTINO);
+	return CADDESTINO;
+}
