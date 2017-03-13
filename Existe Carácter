@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+int existecaracter (char *cad, char car){
+	int i;
+	for (i=0;i<longCadena(cad);i++){
+		if (cad[i]==car){
+			printf("Existe");
+			return 1;
+			break;
+		}
+	}
+	return -1;
+}
